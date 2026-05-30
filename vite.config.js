@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import basicSsl from '@vitejs/plugin-basic-ssl'
 
 export default defineConfig({
+  base: '/segresmart-ai/',
   plugins: [
     react(),
     tailwindcss(),
