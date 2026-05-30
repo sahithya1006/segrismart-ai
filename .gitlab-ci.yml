@@ -12,6 +12,7 @@ pages:
     - mv dist public
   artifacts:
     paths:
-      - public
+      - src
+  publish: src    
   only:
     - main
