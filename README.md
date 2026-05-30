@@ -71,5 +71,3 @@ Users can upload an image of a waste item, and the system uses AI-powered image 
 Our goal is to leverage Artificial Intelligence and Civic Technology to create cleaner communities by helping citizens make informed waste disposal decisions. Through SegreSmart AI, we aim to bridge the gap between public awareness and effective waste management practices.
 
 ---
-
-**Built for CivicTech Hackathon 2026 🚀**
