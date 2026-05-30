@@ -6,12 +6,11 @@ stages:
 pages:
   stage: deploy
   script:
-    - npm install
+    - npm ci
     - npm run build
-    - rm -rf public
     - mv dist public
   artifacts:
     paths:
-      - public   
+      - public/
   only:
-    - main
+    - main 
