@@ -6,7 +6,7 @@ stages:
 pages:
   stage: deploy
   script:
-    - npm ci
+    - npm install
     - npm run build
     - mv dist public
   artifacts:
