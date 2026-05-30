@@ -24,5 +24,22 @@ WasteAI is a mobile-first, serverless React application designed to assist resid
 ### Step-by-Step Installation
 1. Clone the project repository:
    ```bash
-   git clone [https://code.swecha.org/your-username/waste-ai.git](https://code.swecha.org/your-username/waste-ai.git)
+   git clone [https://code.swecha.org/JaswanthMucherla/segresmart-ai.git](https://code.swecha.org/JaswanthMucherla/segresmart-ai.git)
    cd waste-ai
+
+   Install all core workspace dependencies:
+
+2. Install all core workspace dependencies:
+npm install
+
+3. Set up your local environment environment configurations. Create a .env file in the root of the project:
+Code snippet
+VITE_GEMINI_API_KEY=AIzaSyYourActualKeyGoesHere
+
+4. Fire up the local Vite engine securely:
+npm run dev -- --host
+
+5. Access the secure application using your network IP address over standard SSL channels (https://192.168.x.x:5173) to unlock device-level camera streaming permissions.
+
+## 🌐 Production Deployment
+This repository is pre-optimized for rapid zero-config edge hosting deployments via Vercel or Netlify. Remember to map the VITE_GEMINI_API_KEY system environment variables inside your hosting provider dashboard before triggering production builds.
