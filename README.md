@@ -1,73 +1,28 @@
-# SegreSmart AI ♻️
+# WasteAI — Smart Waste Segregation Scanner
 
-## Overview
+WasteAI is a mobile-first, serverless React application designed to assist residents of Hyderabad, India, in real-time waste classification and compliance with Greater Hyderabad Municipal Corporation (GHMC) segregation guidelines. By utilizing a device's rear camera and the Google Gemini 2.5 Flash API, WasteAI instantly scans household waste and categorizes it with actionable disposal advice.
 
-SegreSmart AI is an AI-powered waste segregation assistant designed to promote responsible waste disposal and improve recycling efficiency. The platform helps citizens identify the correct waste category by analyzing images of waste items and providing instant disposal guidance.
+## 🚀 Core Features
+* **Zero-Install Mobile Web App:** Responsive, dark-themed UI configured specifically to match a native mobile app look and feel.
+* **Live Video Viewfinder:** Seamlessly utilizes browser-level hardware access (`getUserMedia`) targeting optimal back-camera streams.
+* **Real-time AI Segregation:** Captures image coordinates, parses binary image matrices to base64 formatting, and requests visual processing models directly.
+* **Localized Guidance:** Dynamically returns strict structural JSON detailing the five GHMC core designations: *Wet, Dry, Hazardous, E-Waste, or Recyclable*.
 
-Improper waste segregation is a major challenge in urban and rural areas, leading to increased landfill waste, reduced recycling rates, and environmental pollution. SegreSmart AI addresses this issue by making waste classification simple, accessible, and educational for everyone.
+## 🛠️ Tech Stack
+* **Frontend Library:** React (Hooks context architecture)
+* **Build System:** Vite (Next-generation bundle toolchain)
+* **Styling Infrastructure:** Tailwind CSS v4
+* **Vector Icons:** Lucide React
+* **AI Processing Model:** Google Gemini 2.5 Flash API (Structured JSON output engine)
 
-## Problem Statement
+## 🔧 Installation & Local Setup
 
-Many citizens are unaware of how to properly segregate waste into categories such as wet waste, dry waste, e-waste, and hazardous waste. As a result, recyclable materials often end up in landfills, making waste processing more difficult and costly for municipalities.
+### Prerequisites
+* Node.js (v18.0.0 or higher)
+* npm (v9.0.0 or higher)
 
-## Solution
-
-Users can upload an image of a waste item, and the system uses AI-powered image recognition to classify it into the appropriate waste category. The application then provides disposal instructions, recycling recommendations, and awareness tips to encourage sustainable waste management practices.
-
-## Key Features
-
-* Image-based waste classification
-* Identification of Wet Waste, Dry Waste, E-Waste, and Hazardous Waste
-* AI-powered waste recognition
-* Disposal and recycling recommendations
-* User-friendly interface
-* Civic awareness and environmental education
-* Dashboard for waste classification insights
-
-## Technology Stack
-
-### Frontend
-
-* React.js / Streamlit
-
-### Backend
-
-* Python
-* Flask / FastAPI
-
-### AI & Machine Learning
-
-* TensorFlow / PyTorch
-* YOLOv8
-* OpenCV
-
-### Database
-
-* SQLite / PostgreSQL
-
-### Deployment
-
-* GitHub / GitLab
-* Render / Railway / Vercel
-
-## Expected Impact
-
-* Improve waste segregation at the source
-* Increase recycling efficiency
-* Reduce landfill waste
-* Promote environmental awareness
-* Support sustainable urban development
-
-## Future Enhancements
-
-* Telugu language support
-* Reward system for responsible waste disposal
-* Smart bin locator
-* Municipality analytics dashboard
-* Mobile application support
-
-## Team Vision
-
-Our goal is to leverage Artificial Intelligence and Civic Technology to create cleaner communities by helping citizens make informed waste disposal decisions. Through SegreSmart AI, we aim to bridge the gap between public awareness and effective waste management practices.
-
----
+### Step-by-Step Installation
+1. Clone the project repository:
+   ```bash
+   git clone [https://code.swecha.org/your-username/waste-ai.git](https://code.swecha.org/your-username/waste-ai.git)
+   cd waste-ai
